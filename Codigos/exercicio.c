@@ -38,7 +38,7 @@ int main()
     while (i < qtdAluno)
     {
         // ler as notas  // perguntar qual media vai ser escolhida
-        printf("Digite as notas separadamentes: \nEX: 10, 5, 9 A ou P \n");
+        printf("Digite as notas separadamentes: \nEX: 10 | 5 | 9 | A ou P \n");
         scanf("%f %f %f %c", &n1, &n2, &n3, &op);
         escolhido = escolhaMedia(n1, n2, n3, op);
         printf("\nResultado media: %1.f\n", escolhido);
