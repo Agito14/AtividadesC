@@ -6,7 +6,8 @@
 
 int verificaInt(n)
 {
-
+    setlocale(LC_ALL, "Portuguese");
+    
     if (n >= 1 && n <= 9)
         printf("O valor está na faixa permitida. =) \n");
     else
@@ -16,7 +17,6 @@ int verificaInt(n)
 int main()
 {
     int num;
-    setlocale(LC_ALL, "Portuguese");
 
     printf("Digite um N inteiro.\n");
     scanf("%d", &num);
