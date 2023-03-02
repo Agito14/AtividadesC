@@ -21,7 +21,7 @@ int main()
     // entrando no looping para armazenar informações
     while (i <= n)
     {
-        printf("Informe a altura e o Sexo ('M' para Masculino 'F' para feminino) \n");
+        printf("Informe a altura e o Sexo ('M' para Masculino 'F' para feminino)\n");
         scanf("%f %c", &alt, &sexo);
         if (alt > 0)
         {
@@ -72,4 +72,6 @@ int main()
     printf("\nA media de altura das mulheres: [%.2f]\n", mediaM);
     printf("Percentual de Homens: [%.2f] Porcento\n", perH);
     printf("Percentual de Mulheres: [%.2f] Porcento\n", perM);
+
+    return 0;
 }
