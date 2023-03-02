@@ -58,8 +58,8 @@ int main()
 
     //percentual 
     totalPessoas = qtdM + qtdH;
-    perH = (qtdH / totalPessoas) * 100;
-    perM = (qtdM / totalPessoas) * 100;
+    perH = (qtdH * 100 ) / totalPessoas;
+    perM = (qtdM * 100 ) / totalPessoas;
 
     //media altura das mulheres e homens
     mediaM = AltM / qtdM;
